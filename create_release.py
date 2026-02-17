@@ -89,7 +89,7 @@ def create_release(token, repo, tag=RELEASE_TAG, title=RELEASE_TITLE):
 
         if response.status_code == 201:
             result = response.json()
-            print("\n✅ Release created successfully!\n")
+            print("\n[SUCCESS] Release created successfully!\n")
             print(f"Release ID: {result['id']}")
             print(f"URL: {result['html_url']}")
             print(f"Created at: {result['created_at']}")
@@ -98,12 +98,12 @@ def create_release(token, repo, tag=RELEASE_TAG, title=RELEASE_TITLE):
             print(f"  {result['html_url']}")
             return result
         else:
-            print(f"\n❌ Error creating release (Status: {response.status_code})")
+            print(f"\n[ERROR] Error creating release (Status: {response.status_code})")
             print(f"Response: {response.text}")
             return None
 
     except requests.exceptions.RequestException as e:
-        print(f"\n❌ Request failed: {e}")
+        print(f"\n[ERROR] Request failed: {e}")
         return None
 
 def main():

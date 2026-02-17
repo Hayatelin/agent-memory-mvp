@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 項目文檔
+    url: https://github.com/Hayatelin/agent-memory-mvp/blob/main/README.md
+    about: 查看項目文檔和使用指南
+  - name: 討論區
+    url: https://github.com/Hayatelin/agent-memory-mvp/discussions
+    about: 提出問題、分享想法和討論功能
+  - name: 安全問題報告
+    url: https://github.com/Hayatelin/agent-memory-mvp/security/advisories/new
+    about: 報告安全漏洞

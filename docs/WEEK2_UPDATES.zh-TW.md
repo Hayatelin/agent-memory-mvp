@@ -1,3 +1,5 @@
+> **語言**: [English](WEEK2_UPDATES.md) | [繁體中文](WEEK2_UPDATES.zh-TW.md)
+
 # AgentMem Week 2-3 更新
 
 ## 新功能

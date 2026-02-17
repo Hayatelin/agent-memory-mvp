@@ -1,3 +1,5 @@
+> **語言**: [English](CHANGELOG.md) | [繁體中文](CHANGELOG.zh-TW.md)
+
 # Changelog
 
 所有本項目的重要改動都會被記錄在此文件中。

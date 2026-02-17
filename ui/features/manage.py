@@ -48,7 +48,9 @@ def render():
                         with col3:
                             st.metric("可見性", memory.visibility)
                         with col4:
-                            st.metric("Agent ID", memory.agent_id[:8] + "...")
+                            # Bug Fix: Use created_by_agent_id instead of agent_id
+                            agent_display = (memory.created_by_agent_id[:8] + "...") if memory.created_by_agent_id else "N/A"
+                            st.metric("Agent ID", agent_display)
 
                         st.write("**完整內容:**")
                         st.write(memory.content)
@@ -116,6 +118,8 @@ def render():
                                 )
 
                             st.success("✓ 記憶已更新！")
+                            # Part 3: 清除緩存
+                            st.cache_data.clear()
                             st.json({
                                 "id": updated.id,
                                 "type": updated.type,
@@ -155,6 +159,8 @@ def render():
                                 client.delete_memory(delete_id)
 
                             st.success("✓ 記憶已刪除！")
+                            # Part 3: 清除緩存
+                            st.cache_data.clear()
                             st.balloons()
 
                         except Exception as e:

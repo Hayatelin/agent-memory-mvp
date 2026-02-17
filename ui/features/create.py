@@ -65,7 +65,11 @@ def render():
                 
                 st.success(f"✓ 記憶已創建！")
                 st.info(f"記憶 ID: {memory.id}")
-                
+
+                # Part 3: 清除緩存後重新加載
+                st.cache_data.clear()
+                st.balloons()
+
                 # 顯示記憶詳情
                 col1, col2, col3 = st.columns(3)
                 with col1:
@@ -74,12 +78,12 @@ def render():
                     st.metric("分類", memory.category)
                 with col3:
                     st.metric("可見性", memory.visibility)
-                
+
                 st.json({
                     "id": memory.id,
                     "content": memory.content[:100] + "..." if len(memory.content) > 100 else memory.content,
                     "created_at": str(memory.created_at)
                 })
-                
+
             except Exception as e:
                 st.error(f"創建失敗: {str(e)}")

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make test:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(make docker-up:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}

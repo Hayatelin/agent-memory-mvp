@@ -1,3 +1,5 @@
+> **語言**: [English](README.md) | [繁體中文](README.zh-TW.md)
+
 # AgentMem - Agent Memory System
 
 一個為 AI Agent 設計的高效記憶管理系統，支持向量嵌入、語義搜索和協作共享。

@@ -37,3 +37,7 @@ assignees: ''
 
 ## 附加信息
 其他相關信息或上下文。
+
+---
+
+> **語言**: [English](bug_report.md) | [繁體中文](bug_report.zh-TW.md)

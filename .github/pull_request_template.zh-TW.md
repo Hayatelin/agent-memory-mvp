@@ -48,3 +48,7 @@
 
 ## 視頻/截圖（可選）
 如果相關，請添加視頻或截圖。
+
+---
+
+> **語言**: [English](pull_request_template.md) | [繁體中文](pull_request_template.zh-TW.md)

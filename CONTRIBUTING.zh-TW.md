@@ -1,3 +1,5 @@
+> **語言**: [English](CONTRIBUTING.md) | [繁體中文](CONTRIBUTING.zh-TW.md)
+
 # 貢獻指南
 
 感謝你對 AgentMem 項目的興趣！本文檔將幫助你開始貢獻。

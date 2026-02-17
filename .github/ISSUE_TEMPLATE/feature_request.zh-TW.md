@@ -34,3 +34,7 @@ assignees: ''
 - [ ] 高 (Critical)
 - [ ] 中 (Important)
 - [ ] 低 (Nice to have)
+
+---
+
+> **語言**: [English](feature_request.md) | [繁體中文](feature_request.zh-TW.md)

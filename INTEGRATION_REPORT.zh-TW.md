@@ -1,3 +1,5 @@
+> **語言**: [English](INTEGRATION_REPORT.md) | [繁體中文](INTEGRATION_REPORT.zh-TW.md)
+
 # AgentMem Week 2-3 整合報告
 
 **報告日期**：2026 年 2 月 17 日

@@ -1,3 +1,5 @@
+> **語言**: [English](PROJECT_DEVELOPMENT_SUMMARY.md) | [繁體中文](PROJECT_DEVELOPMENT_SUMMARY.zh-TW.md)
+
 # AgentMem 項目開發過程總結
 
 **項目名稱**: AgentMem - Agent Memory System

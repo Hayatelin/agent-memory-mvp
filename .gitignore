@@ -61,9 +61,9 @@ logs/
 .cache/
 *.cache
 
-# Model files
-models/
-embeddings/
+# Model files (top-level cache dirs only; src/models/ is source code)
+/models/
+/embeddings/
 *.pt
 *.pth
 

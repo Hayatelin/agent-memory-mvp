@@ -34,6 +34,9 @@ env/
 *~
 .DS_Store
 
+# Claude Code local settings (machine-specific permissions/paths)
+.claude/settings.local.json
+
 # Testing
 .pytest_cache/
 .coverage
@@ -68,3 +71,6 @@ embeddings/
 tmp/
 temp/
 *.tmp
+
+# Media / screen recordings
+*.mp4
